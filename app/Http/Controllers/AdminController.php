@@ -29,7 +29,7 @@ class AdminController extends Controller
             'End_date'=>'date|date_format:Y-m-d|required',
             'Day_count'=>'integer|required',
             'End_date_booking'=>'date|date_format:Y-m-d|required',
-            //'Activitys'=>'required|array',
+            'Activitys'=>'required|array',
             //'Activitys.*'=>'string',
             'Services'=>'required|array',
             'Services.*'=>'integer|exists:services,id',
